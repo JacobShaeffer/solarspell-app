@@ -18,7 +18,10 @@ export class ModulesResolver implements Resolve<any> {
     resolve(): Observable<any> {
         if(!this.cached) {
             this.cached = true;
-            this.dataService.getModules().subscribe(res => this.cache.next(res));
+            this.dataService.getModules().subscribe(res => {
+                this.cached = true;
+                this.cache.next(res);
+            });
         }
 
         return this.cache.pipe(first());

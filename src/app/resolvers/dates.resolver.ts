@@ -18,7 +18,10 @@ export class DatesResolver implements Resolve<any> {
     resolve(): Observable<any> {
         if(!this.cached) {
             this.cached = true;
-            this.dataService.getDates().subscribe(res => this.cache.next(res));
+            this.dataService.getDates().subscribe(res => {
+                this.cached = true;
+                this.cache.next(res);
+            });
         }
 
         return this.cache.pipe(first());

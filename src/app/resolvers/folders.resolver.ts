@@ -18,7 +18,10 @@ export class FoldersResolver implements Resolve<any> {
     resolve(): Observable<any> {
         if(!this.cached) {
             this.cached = true;
-            this.dataService.getFolders().subscribe(res => this.cache.next(res));
+            this.dataService.getFolders().subscribe(res => {
+                this.cached = true;
+                this.cache.next(res);
+            });
         }
 
         return this.cache.pipe(first());

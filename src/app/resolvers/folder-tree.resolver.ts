@@ -17,9 +17,13 @@ export class FolderTreeResolver implements Resolve<any> {
 
     resolve(): Observable<any> {
         if(!this.cached) {
-            this.cached = true;
-            this.dataService.getFolderTree().subscribe(res => this.cache.next(res));
+            this.dataService.getFolderTree().subscribe(res => {
+                this.cached = true;
+                this.cache.next(res);
+            });
         }
+
+        console.log("c");
 
         return this.cache.pipe(first());
     }
