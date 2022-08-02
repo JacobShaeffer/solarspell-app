@@ -9,7 +9,9 @@ import { FolderData } from "../models/folder-data";
     providedIn: 'root',
 })
 export class FileDataResolver implements Resolve<any> {
+
     constructor(private dataService: DataService) {}
+    
     resolve(route: ActivatedRouteSnapshot): Observable<FolderData> {
         return this.dataService.getFileData(route.paramMap.get('content_id'));
     }
