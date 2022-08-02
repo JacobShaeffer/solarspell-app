@@ -7,7 +7,9 @@ import { ActivatedRouteSnapshot } from "@angular/router";
   providedIn: 'root',
 })
 export class FullPathResolver implements Resolve<any> {
+
   constructor(private dataService: DataService) {}
+  
   resolve(route: ActivatedRouteSnapshot): any {
     var id: string;
     var isFolder: boolean;

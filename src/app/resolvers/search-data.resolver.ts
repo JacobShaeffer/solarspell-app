@@ -8,8 +8,10 @@ import { ActivatedRouteSnapshot } from "@angular/router";
   providedIn: 'root',
 })
 export class SearchDataResolver implements Resolve<any> {
+
   constructor(private dataService: DataService) {}
-  resolve(route: ActivatedRouteSnapshot): any {
+
+  resolve(route: ActivatedRouteSnapshot): Observable<any> {
     return this.dataService.singleSearch(route.paramMap.get('search_string'))
   }
 }

@@ -139,13 +139,19 @@ export class SearchListComponent implements OnInit {
         metadata = [params['metadata']];
       }
 
+      //Get type of ids in metadataList
+      var firstId = this.metadataList[0].metadata[0].id;
+      var idType = typeof firstId;
+
       //Loop through metadata and store each element in the corresponding metaTracker (linked with a dropdown)
       for(let meta of metadata) {
         if(this.metaTracker[meta[0]] == undefined) {
           this.metaTracker[meta[0]] = [];
         }
-        
-        this.metaTracker[meta[0]].push(parseInt(meta.slice(1)));
+
+        //Match the type of ids from metadataList with metaTracker ids
+        var metaId = (idType == 'number') ? parseInt(meta.slice(1)) : meta.slice(1);
+        this.metaTracker[meta[0]].push(metaId);
       }
     }
 

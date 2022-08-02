@@ -10,17 +10,9 @@ import { first } from 'rxjs/operators';
   })
 export class MetadataListResolver implements Resolve<any> {
 
-    private cache = new ReplaySubject<any>(1);
-    private cached = false;
-
     constructor(private dataService: DataService)  {}
 
     resolve(): Observable<any> {
-        if(!this.cached) {
-            this.cached = true;
-            this.dataService.getMetadataList().subscribe(res => this.cache.next(res));
-        }
-
-        return this.cache.pipe(first());
+        return this.dataService.getMetadataList();
     }
 }

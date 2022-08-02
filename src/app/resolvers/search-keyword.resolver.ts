@@ -8,7 +8,9 @@ import { ActivatedRouteSnapshot } from "@angular/router";
     providedIn: 'root',
 })
 export class SearchKeywordResolver implements Resolve<any> {
+
     constructor(private dataService: DataService)  {}
+    
     resolve(route: ActivatedRouteSnapshot): Observable<any> {
         return this.dataService.keywordSearch(route.paramMap.get('search_string'))
     }
