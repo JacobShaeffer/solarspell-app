@@ -87,7 +87,7 @@ ul.mobile-breadcrumb {
 .mobile-breadcrumb li:last-child {
   min-width: 40%;
   max-width: 67.5%;
-  margin-left: 30%;
+  margin: 30%;
   text-align: center;
 }
 

@@ -1,7 +1,7 @@
 <div class="bc-div bg-white">
     <ul class="breadcrumb bg-white desktop-breadcrumb">
         <li>
-            <a class="spell-link" [routerLink] ="['/']">Home</a>
+            <a i18n="bcHomeDsktp@@bcHomeDsktp" class="spell-link" [routerLink] ="['/']">Home</a>
         </li>
         <li *ngFor="let bc of breadcrumbList; let i=index">
             <a class="spell-link" *ngIf="i != breadcrumbList.length -1" [routerLink] ="i == 0 ?['/content',bc.id] : ['/content',bc.id]">{{bc.name.split(' | ')[1] == null ? bc.name : bc.name.split(' | ')[1] }}</a><!--removed breadcrumbList[0].id since it was for the mainFolders id which is no longer in use-->
@@ -10,7 +10,7 @@
     </ul>
     <ul class="breadcrumb bg-white mobile-breadcrumb">
         <li *ngIf="breadcrumbList.length == 1">
-            <a class="spell-link" [routerLink] ="['/']" title="Home">< Home</a>
+            <a i18n="bcHomeMobile@@bcHomeMobile" class="spell-link" [routerLink] ="['/']" title="Home">< Home</a>
         </li>
         <li *ngIf="breadcrumbList.length > 1">
             <div>
