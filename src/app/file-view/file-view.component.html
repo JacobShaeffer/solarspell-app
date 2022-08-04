@@ -56,6 +56,5 @@
     <div class="col-md-9 m-auto"  *ngIf="resourceType=='audio'" style="margin-top: 40px !important; margin-bottom: 0px !important;">
         <audio class="w-100 px-4" [src]="fileURL" controls></audio>
     </div>
-    <iframe [src]="pdfUrl" class="col-md-9 file-col" *ngIf="resourceType=='pdf'" frameborder="0" allowfullscreen></iframe>
-    <iframe [src]="fileURL" class="col-md-9 file-col" *ngIf="resourceType=='undefined'" frameborder="0" allowfullscreen></iframe>
+    <iframe [src]="fileURL" class="col-md-9 file-col" *ngIf="resourceType=='pdf_or_undefined'" frameborder="0" allowfullscreen></iframe>
 </div>

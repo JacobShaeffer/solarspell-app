@@ -38,6 +38,26 @@
         </context-group>
         <note priority="1" from="description">menuAboutus</note>
       </trans-unit>
+      <trans-unit id="cb33b150a0b9e6b88a9aa5fa79f91888dd06784a" datatype="html">
+        <source>ltr</source>
+        <target>ltr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>      
       <trans-unit id="generaleducation" datatype="html">
         <source>General Education Topics</source>
         <target>Temas educativos</target>
@@ -56,6 +76,24 @@
         </context-group>
         <note priority="1" from="description">learningmodule</note>
       </trans-unit>
+      <trans-unit id="bcHomeDsktp" datatype="html">
+        <source>Home</source>
+        <target>Inicio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeDsktp</note>
+      </trans-unit>
+      <trans-unit id="bcHomeMobile" datatype="html">
+        <source>&lt; Home</source>
+        <target>&lt; Inicio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeMobile</note>
+      </trans-unit>      
       <trans-unit id="noitemsfoundmsg" datatype="html">
         <source>No Items Found</source>
         <target>No se han encontrado resultados</target>
@@ -138,6 +176,14 @@
           <context context-type="linenumber">38</context>
         </context-group>
         <note priority="1" from="description">download</note>
+      </trans-unit>
+      <trans-unit id="27cda8d3c25cc0abe8798bbda357261c3f184d03" datatype="html">
+        <source>Search resources...</source>
+        <target>Buscar recursos...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="advancedsearchlbl" datatype="html">
         <source>Advanced Search</source>
@@ -250,6 +296,30 @@
         </context-group>
         <note priority="1" from="description">tableSize</note>
       </trans-unit>
+     <trans-unit id="680d5c75b7fd8d37961083608b9fcdc4167b4c43" datatype="html">
+        <source>Previous</source>
+        <target>Anterior</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <target>Siguiente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c48576371b27d5a62f39103d9a0fc5e2ce038568" datatype="html">
+        <source>You&apos;re on page</source>
+        <target>Estás en la página</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>            
       <trans-unit id="mission1" datatype="html">
         <source>Our Mission</source>
         <target>Nuestra Misión</target>
@@ -410,10 +480,17 @@
         <note priority="1" from="description">indextitle</note>
       </trans-unit>
       <trans-unit id="indexdesc" datatype="html">
-        <source> This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
-        Click on the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> to see the topics available within each main subject area. You can also click on the 
-    folder title to view its contents.</source>
-        <target>Esta página de contenido proporciona una descripción general de todas las categorías y subcategorías disponibles en la biblioteca SolarSPELL. Haga clic en para  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ver los temas disponibles dentro de cada área temática principal. También puede hacer clic en el título de la categoría para ver su contenido. </target>
+        <source>
+          This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
+          Click on the <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+          to see the topics available within each main subject area. You can also click on the 
+          folder title to view its contents.
+        </source>
+        <target>
+         Esta página de contenido proporciona una descripción general de todas las categorías y subcategorías disponibles en la biblioteca SolarSPELL. Haga clic en para  
+         <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+           ver los temas disponibles dentro de cada área temática principal. También puede hacer clic en el título de la categoría para ver su contenido.
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
           <context context-type="linenumber">3</context>

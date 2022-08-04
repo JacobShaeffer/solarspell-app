@@ -88,6 +88,24 @@
         </context-group>
         <note priority="1" from="description">learningmodule</note>
       </trans-unit>
+      <trans-unit id="bcHomeDsktp" datatype="html">
+        <source>Home</source>
+        <target>الصفحة الرئيسية</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeDsktp</note>
+      </trans-unit>
+      <trans-unit id="bcHomeMobile" datatype="html">
+        <source>&lt; Home</source>
+        <target>&lt; الصفحة الرئيسية</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeMobile</note>
+      </trans-unit>
       <trans-unit id="noitemsfoundmsg" datatype="html">
         <source>No Items Found</source>
         <target>لم يتم العثور على محتوى</target>
@@ -164,12 +182,20 @@
       </trans-unit>
       <trans-unit id="download" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Download</source>
-        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>تحميل</target>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> تنزيل </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
           <context context-type="linenumber">38</context>
         </context-group>
         <note priority="1" from="description">download</note>
+      </trans-unit>
+      <trans-unit id="27cda8d3c25cc0abe8798bbda357261c3f184d03" datatype="html">
+        <source>Search resources...</source>
+        <target>إبحث عن محتوى</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="advancedsearchlbl" datatype="html">
         <source>Advanced Search</source>
@@ -282,6 +308,30 @@
         </context-group>
         <note priority="1" from="description">tableSize</note>
       </trans-unit>
+      <trans-unit id="680d5c75b7fd8d37961083608b9fcdc4167b4c43" datatype="html">
+        <source>Previous</source>
+        <target>السابق</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <target>التالي</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c48576371b27d5a62f39103d9a0fc5e2ce038568" datatype="html">
+        <source>You&apos;re on page</source>
+        <target>أنت على صفحة</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>      
       <trans-unit id="mission1" datatype="html">
         <source>Our Mission</source>
         <target>مهمتنا</target>
@@ -420,6 +470,17 @@
         </context-group>
         <note priority="1" from="description">footercontact</note>
       </trans-unit>
+      <trans-unit id="footercopyright" datatype="html">
+        <source>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
+        the library’s user interface is copyrighted by Arizona Board of Regents on behalf of Arizona State University.</source>
+        <target>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. Todo el contenido de esta biblioteca es de acceso abierto o la Iniciativa SolarSPELL en ASU ha recibido permiso para incluirlo en esta biblioteca.
+         El diseño y la distribución de la interfaz de usuario de la biblioteca están protegidos por derechos de autor por la Junta de Regentes de Arizona en nombre de la Universidad Estatal de Arizona.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">footercopyright</note>
+      </trans-unit>      
       <trans-unit id="indextitle" datatype="html">
         <source>SolarSPELL Library Index</source>
         <target>الفهرس</target>
@@ -430,11 +491,16 @@
         <note priority="1" from="description">indextitle</note>
       </trans-unit>
       <trans-unit id="indexdesc" datatype="html">
-        <source> This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
-        Click on the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> to see the topics available within each main subject area. You can also click on the 
-    folder title to view its contents.</source>
-        <target> يوفر هذا الفهرس نظرة عامة على جميع المجلدات والمجلدات الفرعية المتاحة في مكتبة SolarSPELL. 
-        انقر فوق <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> .لرؤية المواضيع المتاحة داخل كل مجال رئيسي. يمكنك أيضًا النقر فوق عنوان المجلد لعرض محتوياته</target>
+        <source>
+            This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
+            Click on the <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+            to see the topics available within each main subject area. You can also click on the 
+            folder title to view its contents.
+        </source>
+        <target>
+          يوفر هذا الفهرس نظرة عامة على جميع المجلدات والمجلدات الفرعية المتاحة في المكتبة . 
+            انقر فوق  <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>  لرؤية المواضيع المتاحة داخل كل مجال رئيسي. يمكنك أيضًا النقر فوق عنوان المجلد لعرض محتوياته .
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
           <context context-type="linenumber">3</context>

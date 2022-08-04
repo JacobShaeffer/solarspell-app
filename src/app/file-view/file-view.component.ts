@@ -54,11 +54,8 @@ export class FileViewComponent implements OnInit {
       this.resourceType = "video";
     } else if (this.fileExtensions["audio"].some(ext => this.content.file_name.includes(ext))) {
       this.resourceType = "audio";
-    } else if (this.content.file_name.includes(".pdf")) {
-      this.resourceType = "pdf";
-      this.pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl('/assets/pdf-js/web/viewer.html?file=' + environment.contentUrl.concat(this.content.file_name));
     } else {
-      this.resourceType = "undefined";
+      this.resourceType = "pdf_or_undefined";
     }
   }
 

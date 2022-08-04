@@ -26,12 +26,12 @@
     <div class="text-center spell-pagination">
       <pagination-controls 
       (pageChange)="page = $event"
-      previousLabel="Previous"
-      nextLabel="Next"
+      i18n-previousLabel previousLabel="Previous"
+      i18n-nextLabel nextLabel="Next"
       responsive="true"
       screenReaderPaginationLabel="Pagination"
       screenReaderPageLabel="page"
-      screenReaderCurrentLabel="You're on page"></pagination-controls>
+      i18n-screenReaderCurrentLabel screenReaderCurrentLabel="You're on page"></pagination-controls>
     </div>
   </div>
 </div>

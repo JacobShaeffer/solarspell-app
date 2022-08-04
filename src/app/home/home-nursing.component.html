@@ -21,13 +21,15 @@
         </div>
         <ng-container *ngIf="i === 0">
             <div class="col-md-4 cat-col" *ngFor="let module of modules| slice:(3*i):(3*i+2)">
-                <a [href]="module.module_name" ><img class="logo-img img-responsive" src="/assets/{{module.logo}}"/></a>
-            </div>
+                <ng-container *ngIf="module.module_name.slice(0,4) == 'http'; then other_port else same_port"></ng-container>
+                <ng-template #other_port><a [href]="module.module_name" (click)="logModuleAnalytics(module.module_name)" target="_blank" rel="noopener noreferrer"><img class="logo-img img-responsive" src="assets/{{module.logo}}"/></a></ng-template>
+                <ng-template #same_port><a [routerLink]="'/module/' + module.module_name" (click)="logModuleAnalytics(module.module_name)"><img class="logo-img img-responsive" src="assets/{{module.logo}}"/></a></ng-template>            </div>
         </ng-container>
         <ng-container *ngIf="i == 1 || i == 2">
             <div class="col-md-4 cat-col" *ngFor="let module of modules| slice:(3*i-1):(3*i+2)">
-                <a [href]="module.module_name" ><img class="logo-img img-responsive" src="/assets/{{module.logo}}"/></a>
-            </div>
+                <ng-container *ngIf="module.module_name.slice(0,4) == 'http'; then other_port else same_port"></ng-container>
+                <ng-template #other_port><a [href]="module.module_name" (click)="logModuleAnalytics(module.module_name)" target="_blank" rel="noopener noreferrer"><img class="logo-img img-responsive" src="assets/{{module.logo}}"/></a></ng-template>
+                <ng-template #same_port><a [routerLink]="'/module/' + module.module_name" (click)="logModuleAnalytics(module.module_name)"><img class="logo-img img-responsive" src="assets/{{module.logo}}"/></a></ng-template>            </div>
         </ng-container>
     </div>
 </div>

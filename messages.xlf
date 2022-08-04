@@ -6,23 +6,15 @@
         <source>Home</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">menuHome</note>
-      </trans-unit>
-      <trans-unit id="menuSearch" datatype="html">
-        <source>Search</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <note priority="1" from="description">menuSearch</note>
       </trans-unit>
       <trans-unit id="menuIndex" datatype="html">
         <source>Index</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <note priority="1" from="description">menuIndex</note>
       </trans-unit>
@@ -30,7 +22,7 @@
         <source>About us</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">menuAboutus</note>
       </trans-unit>
@@ -38,11 +30,11 @@
         <source>ltr</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
+          <context context-type="linenumber">2</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
@@ -69,6 +61,22 @@
         </context-group>
         <note priority="1" from="description">learningmodule</note>
       </trans-unit>
+      <trans-unit id="bcHomeDsktp" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeDsktp</note>
+      </trans-unit>
+      <trans-unit id="bcHomeMobile" datatype="html">
+        <source>&lt; Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">bcHomeMobile</note>
+      </trans-unit>
       <trans-unit id="noitemsfoundmsg" datatype="html">
         <source>No Items Found</source>
         <context-group purpose="location">
@@ -81,7 +89,7 @@
         <source>Title</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">fileTilte</note>
       </trans-unit>
@@ -89,7 +97,7 @@
         <source>Description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">fileDescription</note>
       </trans-unit>
@@ -97,14 +105,14 @@
         <source>{VAR_SELECT, select, Language {Language} Subject {Subject} Resource Type {Resource Type} Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="RightsStatement" datatype="html">
         <source>Rights Statement</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">29</context>
         </context-group>
         <note priority="1" from="description">RightsStatement</note>
       </trans-unit>
@@ -112,7 +120,7 @@
         <source>Year of Publication</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <note priority="1" from="description">yearPublished</note>
       </trans-unit>
@@ -120,7 +128,7 @@
         <source>File Size</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">39</context>
         </context-group>
         <note priority="1" from="description">fileSize</note>
       </trans-unit>
@@ -128,21 +136,30 @@
         <source>{VAR_SELECT, select, MB {MB} KB {KB} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="download" datatype="html">
         <source>
-                <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Download</source>
+                <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                Download
+              </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">download</note>
+      </trans-unit>
+      <trans-unit id="27cda8d3c25cc0abe8798bbda357261c3f184d03" datatype="html">
+        <source>Search resources...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="advancedsearchlbl" datatype="html">
         <source>Advanced Search</source>
@@ -154,11 +171,11 @@
       </trans-unit>
       <trans-unit id="advancedsearchbtn" datatype="html">
         <source>
-                Advanced Search
-            </source>
+            Advanced Search
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">advancedsearchbtn</note>
       </trans-unit>
@@ -174,32 +191,8 @@
         <source>{VAR_SELECT, select, Language {Language} Subject {Subject} Resource Type {Resource Type} Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">19</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="searchYearPublished" datatype="html">
-        <source>Year Published</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-        <note priority="1" from="description">searchYearPublished</note>
-      </trans-unit>
-      <trans-unit id="searchMin" datatype="html">
-        <source>Min</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-        <note priority="1" from="description">searchMin</note>
-      </trans-unit>
-      <trans-unit id="searchMax" datatype="html">
-        <source>Max</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-        <note priority="1" from="description">searchMax</note>
       </trans-unit>
       <trans-unit id="searchSearchBtn" datatype="html">
         <source>
@@ -207,11 +200,11 @@
                     </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">72</context>
         </context-group>
         <note priority="1" from="description">searchSearchBtn</note>
       </trans-unit>
@@ -219,7 +212,7 @@
         <source>No Items Found</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <note priority="1" from="description">noitemsfoundmsg2</note>
       </trans-unit>
@@ -227,7 +220,7 @@
         <source>Type</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">tableType</note>
       </trans-unit>
@@ -235,7 +228,7 @@
         <source>Title</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">tableTitle</note>
       </trans-unit>
@@ -243,9 +236,30 @@
         <source>Size</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <note priority="1" from="description">tableSize</note>
+      </trans-unit>
+      <trans-unit id="680d5c75b7fd8d37961083608b9fcdc4167b4c43" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c48576371b27d5a62f39103d9a0fc5e2ce038568" datatype="html">
+        <source>You&apos;re on page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="mission1" datatype="html">
         <source>Our Mission</source>
@@ -369,21 +383,15 @@
         </context-group>
         <note priority="1" from="description">footercopyright</note>
       </trans-unit>
-      <trans-unit id="indextitle" datatype="html">
-        <source>SolarSPELL Library Index</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">indextitle</note>
-      </trans-unit>
       <trans-unit id="indexdesc" datatype="html">
-        <source> This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
-        Click on the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> to see the topics available within each main subject area. You can also click on the 
-    folder title to view its contents.</source>
+        <source>
+                    This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
+                    Click on the <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    to see the topics available within each main subject area. You can also click on the 
+                    folder title to view its contents.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">indexdesc</note>
       </trans-unit>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { Folder } from '../models/folder';
+import { ActivatedRoute } from '@angular/router';
 
 var math = Math;
 
@@ -19,27 +20,19 @@ export class HomeComponent implements OnInit {
 //this variable holds Math
 public  math = Math;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService,
+    private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.getFolders();
-    this.getModules();
+    let all_folders = this.route.snapshot.data.folders;
+    this.modules = this.route.snapshot.data.modules;
+    this.ltp = all_folders.find( ({ folder_name }) => folder_name === 'Learning Through Play' );
+    this.folders = all_folders.filter(item => item.folder_name !== 'Learning Through Play');
   }
 
-  getFolders() {
-    this.dataService.getFolders()
-    .subscribe( response  => {
-      let all_folders = response;
-      this.ltp = all_folders.find( ({ folder_name }) => folder_name === 'Learning Through Play' );
-      this.folders = all_folders.filter(item => item.folder_name !== 'Learning Through Play');
-    });
-  }
-
-  getModules() {
-    this.dataService.getModules()
-    .subscribe( response  => {
-      this.modules = response;
-    });
+  //Called when a link to a module is clicked
+  logModuleAnalytics(name) {
+    this.dataService.logAnalytics({ title: name, activity_type: 'open_module' });
   }
 
 }
