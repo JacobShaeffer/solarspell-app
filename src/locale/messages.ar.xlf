@@ -471,9 +471,9 @@
         <note priority="1" from="description">footercontact</note>
       </trans-unit>
       <trans-unit id="footercopyright" datatype="html">
-        <source>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
+        <source>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2023. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
         the library’s user interface is copyrighted by Arizona Board of Regents on behalf of Arizona State University.</source>
-        <target>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
+        <target>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2023. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
         the library’s user interface is copyrighted by Arizona Board of Regents on behalf of Arizona State University.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
