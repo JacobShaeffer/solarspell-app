@@ -35,10 +35,12 @@ Ensure node version 16
 ```
 nvm use 16
 ```
+
 run build script
 ```
-sh ./non-root_build.sh /
+sh ./non-root_build.sh destination_path
 ```
+For example `sh ./non-root_build.sh ag`
 <!-- old instructions
 >Example build for non-root east-africa library
 
