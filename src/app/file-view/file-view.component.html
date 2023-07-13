@@ -2,7 +2,15 @@
 <app-breadcrumb></app-breadcrumb>
 <div class="row">
     <!--banner has been removed-->
-    <div class="col-md-3 meta-col order-last">
+    <video class="col-md ratio ratio-16x9 bg-black content" [src]="fileURL" controls *ngIf="resourceType=='video'" style="height: 100%"></video>
+    <div class="col-md m-auto content"  *ngIf="resourceType=='audio'" style="margin-top: 40px !important; margin-bottom: 0px !important;">
+        <audio class="w-100 px-4" [src]="fileURL" controls></audio>
+    </div>
+    <iframe [src]="fileURL" class="col-md file-col content" *ngIf="resourceType=='pdf_or_undefined'" frameborder="0" allowfullscreen></iframe>
+    <div class="col-md-auto meta-close-col">
+        <button class="meta-close spell-btn btn">Open</button>
+    </div>
+    <div class="col-md meta-col order-last" style="display: none;">
         <!--background color class-->
         <div *ngIf="content.title" class="wrapper">
             <p i18n="fileTilte@@fileTitle" class="lbl">Title</p>
@@ -52,9 +60,9 @@
             </a>
         </div>
     </div>
-    <video class="col-md-9 ratio ratio-16x9 bg-black" [src]="fileURL" controls *ngIf="resourceType=='video'" style="height: 100%"></video>
+    <!-- <video class="col-md-9 ratio ratio-16x9 bg-black" [src]="fileURL" controls *ngIf="resourceType=='video'" style="height: 100%"></video>
     <div class="col-md-9 m-auto"  *ngIf="resourceType=='audio'" style="margin-top: 40px !important; margin-bottom: 0px !important;">
         <audio class="w-100 px-4" [src]="fileURL" controls></audio>
     </div>
-    <iframe [src]="fileURL" class="col-md-9 file-col" *ngIf="resourceType=='pdf_or_undefined'" frameborder="0" allowfullscreen></iframe>
+    <iframe [src]="fileURL" class="col-md-9 file-col" *ngIf="resourceType=='pdf_or_undefined'" frameborder="0" allowfullscreen></iframe> -->
 </div>

@@ -7,6 +7,7 @@ import { BreadcrumbService } from "../services/breadcrumb.service";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { environment } from "../../environments/environment";
 import { UrlService } from "../services/url.service";
+import * as $ from 'jquery';
 
 @Component({
   selector: "app-file-view",
@@ -57,6 +58,12 @@ export class FileViewComponent implements OnInit {
     } else {
       this.resourceType = "pdf_or_undefined";
     }
+
+    $('.meta-close').on('click', function() {
+      $('.content').toggleClass('col-md col-md-9');
+      $('.meta-col').toggle();
+      $('.meta-close').html($('.meta-close').html() == 'Close' ? 'Open' : 'Close');
+    });
   }
 
   searchKeyword(name) {
