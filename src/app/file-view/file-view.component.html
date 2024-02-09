@@ -22,7 +22,7 @@
         </div>
         <div class="wrapper" *ngFor="let meta of metadataList">
             <p i18n class="lbl">{meta.name, select, Language {Language} Subject {Subject} Resource Type {Resource Type}
-                Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder}}
+                Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Author {Author} Rights Holder {Rights Holder}}
             </p>
             <p *ngIf="meta.name !== 'Keywords'" class="value">{{meta.value}}</p>
             <p *ngIf="meta.name == 'Keywords'">
