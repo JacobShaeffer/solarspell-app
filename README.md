@@ -12,6 +12,12 @@ To start the app:
 - `docker compose up` (Windows/Mac OS)
 - `docker-compose up` (Linux)
 
+## Dev 
+Start a php server 
+```php -c backend/php.ini -S localhost:8080```
+
+Start the dev server ```npm start```
+
 
 ## Build
 

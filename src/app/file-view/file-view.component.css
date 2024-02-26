@@ -19,15 +19,8 @@ iframe
 .col-md-3{
     padding:0;
 }
-.col-md{
-    padding:0;
-}
 .meta-col {
     padding-top: 30px;
-}
-.meta-close-col {
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 .wrapper{
     margin: auto;
