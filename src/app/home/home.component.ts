@@ -25,6 +25,14 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.folders = this.route.snapshot.data.folders;
     this.modules = this.route.snapshot.data.modules;
+    
+    let value = `; ${document.cookie}`;
+    let parts = value.split(`; user_id=`);
+    let id = parts.length === 2 ? parts.pop().split(';').shift() : null;
+    if (id === null) {
+      id = "id" + Math.random().toString(16).slice(2)
+      document.cookie = `user_id=${id}; path=/`;
+    }
   }
 
   //Called when a link to a module is clicked

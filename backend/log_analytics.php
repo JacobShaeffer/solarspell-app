@@ -30,10 +30,13 @@
     #Initialize usage table and add parameters
     $usage = R::dispense('usage');
 
-    foreach($columns as $col) {
-        if(isset($_GET[$col])) {
-            $usage[$col] = $_GET[$col];
-        }
+    // foreach($columns as $col) {
+    //     if(isset($_GET[$col])) {
+    //         $usage[$col] = $_GET[$col];
+    //     }
+    // }
+    foreach($_GET as $key => $value) {
+        $usage[$key] = $value;
     }
 
     #Add device information to usage table

@@ -61,12 +61,18 @@ export class SearchListComponent implements OnInit {
         //Get component content from resolvers
         this.searchString = this.route.snapshot.data.searchResult.searchString;
         this.contentList = this.route.snapshot.data.searchResult.contentList;
+        console.log("search string", this.searchString);
+        console.log("content list count", this.contentList.length);
 
         //Initialize activity_type to 'search', then change to 'keyword_search' if url matches a keyword search
         var activity_type = 'search';
 
         if(this.router.url.slice(0,21) == '/search-list/keyword/') {
           activity_type = 'keyword_search';
+        }
+
+        if(this.contentList.length == 0) {
+          activity_type = 'search_no_results';
         }
 
         this.dataService.logAnalytics({ title: this.searchString, activity_type: activity_type });

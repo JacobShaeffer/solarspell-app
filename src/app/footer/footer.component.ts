@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConfigService } from '../services/config.service';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,10 +10,21 @@ import { ConfigService } from '../services/config.service';
 export class FooterComponent implements OnInit {
 
   version: string;
-  constructor(private configService: ConfigService) { }
+  constructor(
+    private dataService: DataService,
+    private configService: ConfigService
+  ) { }
 
   ngOnInit(): void {
     this.version = this.configService.getVersion();
+  }
+
+  onAboutClick() {
+    var analytics = {
+      title: 'About_Bottom',
+      activity_type: 'navigation',
+    }
+    this.dataService.logAnalytics(analytics);
   }
 
 }

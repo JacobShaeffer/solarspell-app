@@ -2,7 +2,7 @@
     <img src="/assets/static/SolarSpell_Primary_tsp.png" alt="SolarSPELL logo">
     <img src="/assets/static/asu-logo-black.png" alt="ag State University Black logo">
     <br>
-    <a [routerLink]="['/about']" class="bg-primary-dark text-white"><button i18n="footerAboutusbtn@@footerAboutusbtn" type="button" class="spell-btn btn">About Us</button></a>
+    <a [routerLink]="['/about']" class="bg-primary-dark text-white"><button i18n="footerAboutusbtn@@footerAboutusbtn" type="button" class="spell-btn btn" (click)="onAboutClick()">About Us</button></a>
     <section id="footerText"><!--made the button consistent with the other buttons on the site-->
       <small class="text-black">version {{version}}</small>
 

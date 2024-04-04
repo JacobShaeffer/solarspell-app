@@ -115,6 +115,7 @@ export class FileViewComponent implements OnInit {
     });
 
     //Log analytics with gathered metadata
+    console.log("Logging analytics: ", analytics);
     this.dataService.logAnalytics(analytics);
   }
 }

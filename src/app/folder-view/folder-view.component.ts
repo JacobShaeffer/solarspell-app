@@ -21,6 +21,7 @@ export class FolderViewComponent implements OnInit {
   public  math = Math;
   
   constructor(
+    private dataService: DataService,
     private route: ActivatedRoute,
     private breadcrumbService: BreadcrumbService,
     public topElement: ElementRef
@@ -43,5 +44,7 @@ getFolderContent() {
     this.folderList = data.folderData.folders;
 
     this.breadcrumbService.updateBreadcrumb(this.route.snapshot.data.fullPath);
+    let breadcrumb_fullPath = this.breadcrumbService.breadcrumbArray.map((item) => item.name).join('/');
+    this.dataService.logAnalytics({activity_type: 'access_folder', title: breadcrumb_fullPath});
   }
 }
