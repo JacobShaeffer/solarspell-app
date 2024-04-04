@@ -1,4 +1,4 @@
-const baseUrl = '/edu';
+const baseUrl = '/health';
 export const environment = {
   production: true,
   apiUrl: baseUrl + '/backend/',
