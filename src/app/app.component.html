@@ -1,13 +1,20 @@
+<!-- For the hybrid library 2 builds must be made, 1 for each library. The 3 lines marked below must be switched for each of the libraries.
+Lines 1 and 2 are oposites of line 3 in their path since lines 1 and 2 are meant to take the user home, while line 3 takes the user to the other library. 
+For each Line, there are 2 lines; the second is the root library, and the first the latter.-->
 <app-loading-indicator></app-loading-indicator>
 <div i18n-dir dir="ltr">
     <div class="navbar-style bg-primary-dark text-active-sunglow">
         <div class="container"  i18n-dir dir="ltr">
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" [routerLink]="['/']">
+                <!-- Line 1 -->
+                <a class="navbar-brand" [routerLink]="['/edu']">
+                <!-- <a class="navbar-brand" [routerLink]="['/']"> -->
                     <img src="/assets/static/logo_full.png" class="logo-responsive">
                 </a>
                 <span class="text-white">
-                    <p class="title" [routerLink]="['/']"></p>
+                    <!-- Line 2 -->
+                    <p class="title" [routerLink]="['/edu']"></p>
+                    <!-- <p class="title" [routerLink]="['/']"></p> -->
                 </span> 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -15,7 +22,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                            <a class="nav-link text-white" href="http://10.10.10.10/ag/" routerLinkActive="active">Agriculture Library</a>
+                            <!-- Line 3 -->
+                            <a class="nav-link text-white" href="http://10.10.10.10/" routerLinkActive="active">Agriculture Library</a>
+                            <!-- <a class="nav-link text-white" href="http://10.10.10.10/edu/" routerLinkActive="active">Education Library</a> -->
                         </li>
                         <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a i18n="menuHome@@menuHome" class="nav-link text-white" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
