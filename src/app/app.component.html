@@ -7,25 +7,34 @@ For each Line, there are 2 lines; the second is the root library, and the first 
         <div class="container"  i18n-dir dir="ltr">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <!-- Line 1 -->
-                <a class="navbar-brand" [routerLink]="['/edu']">
-                <!-- <a class="navbar-brand" [routerLink]="['/']"> -->
+                <!-- <a class="navbar-brand" [routerLink]="['/edu']"> -->
+                <a class="navbar-brand" [routerLink]="['/']">
                     <img src="/assets/static/logo_full.png" class="logo-responsive">
                 </a>
                 <span class="text-white">
                     <!-- Line 2 -->
-                    <p class="title" [routerLink]="['/edu']"></p>
+                    <!-- <p class="title" [routerLink]="['/edu']"></p> -->
                     <!-- <p class="title" [routerLink]="['/']"></p> -->
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Library
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="http://10.10.10.10/edu" >Education Library</a>
+                            <a class="dropdown-item" href="http://10.10.10.10/" >Agriculture Library</a>
+                        </div>
+                    </div>
                 </span> 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <!-- <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> -->
                             <!-- Line 3 -->
-                            <a class="nav-link text-white" href="http://10.10.10.10/" routerLinkActive="active">Agriculture Library</a>
+                            <!-- <a class="nav-link text-white" href="http://10.10.10.10/" routerLinkActive="active">Agriculture Library</a> -->
                             <!-- <a class="nav-link text-white" href="http://10.10.10.10/edu/" routerLinkActive="active">Education Library</a> -->
-                        </li>
+                        <!-- </li> -->
                         <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a i18n="menuHome@@menuHome" class="nav-link text-white" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
                         </li>
