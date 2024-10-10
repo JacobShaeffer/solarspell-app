@@ -5,7 +5,7 @@
 <app-search-box [hideLink]="false"></app-search-box>
 <div class="container cat-container"><!--background color class-->
     <div class="cat-title">
-        <p i18n="generaleducation@@generaleducation" class="text-white bg-primary-dark">General Education Topics</p>
+        <p i18n="generaleducation@@generaleducation" class="text-white bg-primary-dark rounded">General Education Topics</p>
     </div>
     <div class="row justify-content-center cat-row" *ngFor="let rows of folders | slice:0:(math.ceil(folders.length/3)); let i=index"><!--added math ceiling function-->
         <div class="col-md-4 cat-col" *ngFor="let folder of folders| slice:(3*i):(3*i+3)">
@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="cat-title">
-        <p i18n="learningmodule@@learningmodule" class="text-white bg-primary-dark">Learning Modules</p>
+        <p i18n="learningmodule@@learningmodule" class="text-white bg-primary-dark rounded">Learning Modules</p>
     </div>
     <div class="row justify-content-center cat-row" *ngFor="let rows of modules | slice:0:(math.ceil(modules.length/3)); let i=index"><!--added math ceiling function-->
         <div class="col-md-4 cat-col" *ngFor="let module of modules| slice:(3*i):(3*i+3)">

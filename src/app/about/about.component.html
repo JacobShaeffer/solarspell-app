@@ -1,33 +1,83 @@
- <div class="container-fluid d-flex h-100 text-black" i18n-dir dir="ltr"><!--text color class-->
-    <div class="row d-flex flex-row" i18n-dir dir="ltr">
-        <div class="col-12 col-md-12 col-lg-4 order-2 order-lg-first ourMission bg-sunglow-50 text-black"><!--background and text color class-->
-            <h3 i18n="mission1@@mission1" class="pt-2">Our Mission</h3>
-            <p i18n ="mission2@@mission2" class="pb-2">The SolarSPELL initiative empowers learners globally by providing localized educational information and the training to build 21st century skills in offline environments. Student success is central to our mission, both around the world and at Arizona State University. </p>
-            <h3 i18n="vision1@@vision1" >Our Vision</h3>
-            <p i18n="vision2@@vision2" class="pb-2">We envision a future in which all learners everywhere have:<br /><b>Access</b> to the information they need;<br /><b>Skills</b> to turn information into knowledge; and<br /><b>Agency</b> to transform knowledge into solutions. </p>
+<section class="banner"><div class="banner-title-wrapper"><h1 class="banner-title">About us</h1></div></section>
+<div class="container-fluid bg-white text-black"><!--text color class-->
+    <div class="row">
+        <div class="col-12 col-md-12 topPadding">
+            <div class="row align-items-center">
+                <div class="offset-2 offset-md-0 col-8 col-md-6 col-xl-4 mb-3">
+                    <img src="/assets/images/About_us_title.jpeg" width="100%" class="title-image" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-8">
+                    <h2 class="topPadding bottomPadding center-text"> What is the SolarSPELL initiative?</h2>
+                    <p>
+                        The SolarSPELL (Solar Powered Educational Learning Library) initiative at ASU combines curated digital libraries, solar-powered, offline technology, and the training to build information literacy and internet-ready skills in offline environments, focusing on the half of the world that remains unconnected. SolarSPELL’s solar-powered, offline technology is rugged and ultra-portable so that it can go anywhere and reach anyone, even the most remote. The SolarSPELL digital library mimics an online experience by generating its own offline WiFi hotspot to which any WiFi-capable device (smartphone, tablet, laptop) can connect and freely, and safely, surf the library’s thousands of open access resources that are carefully curated and continually improved to meet local information needs.
+                    </p>
+                    <p>
+                        SolarSPELL’s digital library collections currently span primary and secondary education, health, agriculture, and the environment. Using a train-the-trainer model and working with in-field partners like Peace Corps and UNHCR, the SolarSPELL libraries are paired with locally based trainers for long-term support. SolarSPELL’s work is simultaneously focused on improving educational opportunities for students around the world, as well as at Arizona State University. Our team includes ASU students, librarians, faculty, and staff.
+                    </p>
+                </div>
+            </div>
         </div><!--column-->
-        <div class="col-12 col-md-12 col-lg-8 bg-white topPadding">
-            <h3 i18n="aboutus1@@aboutus1">About Us</h3>
-            <div class="col-md-8 embed-responsive embed-responsive-16by9">
-                <video class="embed-responsive-item video-fluid z-depth-1 bg-black" controls>
-                    <source src="/assets/static/about-us.mp4" type="video/mp4">
-                </video>
-        </div><!--video container-->
-            <p i18n="aboutus2@@aboutus2" class="ml-1 mr-1 pb-2 pt-2">SolarSPELL is a Solar Powered Educational Learning Library. Our initiative works to build internet-ready skills and improve educational opportunities around the world.</p> 
-            <h3 i18n="values1@@values1" class="d-none d-md-none d-lg-block">Our Values</h3><!--this displays in large screens-->
-            <p i18n="values2@@values2" class="d-none d-md-none d-lg-block"><b>Community:</b> We prioritize relationships within our community and the global communities in which we work.<br /> 
-                <b>Learning:</b> We ask questions and continuously improve all aspects of our initiative.<br />
-                <b>Innovative solutions at scale:</b> We design for sustainability and boldly believe the opportunities for implementation are limitless.<br />
-                <b>Meaningful work:</b> We are honored to meet people where they are and deliver products and services of value.<br />
-                <b>Building bridges:</b> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<br /></p>
+        <div class="col-12 ourMission text-black"><!--background and text color class-->
+            <div class="row align-items-center">
+                <div class="d-none d-md-inline col-md-6 col-xl-4 p-0">
+                    <img src="/assets/images/LibraryApp-AboutUs-image.jpg" width="100%" />
+                </div>
+                <div class="col-12 col-md-6 col-xl-8">
+                    <h1 i18n="mission1@@mission1" class="pt-2 center-text">Our Mission</h1>
+                    <p i18n ="mission2@@mission2" class="pb-2 center-text">The SolarSPELL initiative empowers learners globally by providing localized educational information and the training to build 21st century skills in offline environments. Student success is central to our mission, both around the world and at Arizona State University.</p>
+                </div>
+            </div>
         </div><!--column-->
-        <div class="d-block d-md-block d-lg-none col-12 col-md-12 col-lg-6 bg-white order-last"><!--this displays on tablets and mobile-->
-            <h3 i18n="values3@@values3" >Our Values</h3>
-            <p i18n="values4@@values4"><b>Community:</b> We prioritize relationships within our community and the global communities in which we work. <br />
-                 <b>Learning:</b> We ask questions and continuously improve all aspects of our initiative.<br />
-                 <b>Innovative solutions at scale:</b> We design for sustainability and boldly believe the opportunities for implementation are limitless. <br />
-                 <b>Meaningful work:</b> We are honored to meet people where they are and deliver products and services of value.<br />
-                 <b>Building bridges:</b> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<br /></p>
+        <div class="col-md-12 video-section"><!--this displays on tablets and mobile-->
+            <div class="row">
+                <div class="col center-text">
+                    <h4>Learn more about SolarSPELL</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 col-lg-4">
+                    <div class="video-container center-text">
+                        <video class="embed-responsive-item video-fluid z-depth-1 bg-black" width="70%" controls>
+                            <source src="/assets/static/about-us.mp4" type="video/mp4">
+                        </video>
+                        <p>Video Description</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-lg-4">
+                    <div class="video-container center-text">
+                        <video class="embed-responsive-item video-fluid z-depth-1 bg-black" width="70%" controls>
+                            <source src="/assets/static/about-us.mp4" type="video/mp4">
+                        </video>
+                        <p>Video Description</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-lg-4">
+                    <div class="video-container center-text">
+                        <video class="embed-responsive-item video-fluid z-depth-1 bg-black" width="70%" controls>
+                            <source src="/assets/static/about-us.mp4" type="video/mp4">
+                        </video>
+                        <p>Video Description</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 col-lg-4">
+                    <div class="video-container center-text">
+                        <video class="embed-responsive-item video-fluid z-depth-1 bg-black" width="70%" controls>
+                            <source src="/assets/static/about-us.mp4" type="video/mp4">
+                        </video>
+                        <p>Video Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-12 video-container center-text">
+                    <div class="offset-md-1 offset-lg-2 col-md-10 col-lg-8 col-xl-6 embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item video-fluid z-depth-1 bg-black" controls>
+                            <source src="/assets/static/about-us.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>video description</p>
+                </div>
+            </div> -->
         </div><!--column-->
     </div><!--row-->
- </div><!-- container -->
+</div><!-- container -->

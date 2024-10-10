@@ -1,0 +1,44 @@
+
+
+.page-description {
+    text-align: center;
+    padding: 1rem;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.topPadding {
+    padding-top:20px;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(/assets/images/banners/LibraryApp-NewUser-banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    display: table-cell; 
+    vertical-align: middle;
+    color: white;
+}
+
+.banner-title-wrapper{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.stc-link {
+    background-color: #ffc627;
+    border-radius: 1rem;
+}

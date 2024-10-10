@@ -1,6 +1,6 @@
 
 body{
-margin:0;
+    margin:0;
 }
 .text-dir-right{
     text-align: right;
@@ -9,48 +9,93 @@ margin:0;
     text-align: left;
 }
 .aboutus h1, .aboutus h2, .aboutus h3 {
-text-align: center;
-padding-bottom: 1%;
-margin-top: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-top: 20px;
 }
 /* replaced text color with class */
 .aboutus video{
-object-fit: fill;
-/* replaced background and text color with class */}
+    object-fit: fill;
+    /* replaced background and text color with class */
+}
+
+.ourMission {
+    background-color: #ffc627;
+    margin-bottom: 1rem;
+}
+
 /* mobile screen size*/
 @media screen and (min-width:200px) and (max-width: 576px) {
-.aboutus {
-text-align: justify;
-}
+    .aboutus {
+        text-align: justify;
+    }
 }
 
 /* tablet screen size*/
 @media screen and (min-width: 577px) {
-.aboutus, .aboutus h2, .aboutus h1, .aboutus h3 {
-text-align: left;
-}
-.aboutus p, .aboutus h3, .aboutus h3{
-    padding-left: 2%;
-    padding-right: 3%;
-}
-.aboutus video{
-    margin-left: 2%;
-}
+    .aboutus, .aboutus h2, .aboutus h1, .aboutus h3 {
+        text-align: left;
+    }
+    .aboutus p, .aboutus h3, .aboutus h3{
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+    .aboutus video{
+        margin-left: 2%;
+    }
 }
 
 /* computer screen size*/
 @media screen and (min-width: 992px) {
-.aboutus {
-    text-align: left;
-}
-
-.ourMission{
-padding-top: 4%;
-padding-left: 2%;
-padding-right: 3.5%;
-}
+    .aboutus {
+        text-align: left;
+    }
 }
 
 .topPadding {
-    padding-top:20px;
+    padding-top: 2rem;
+}
+
+.bottomPadding {
+    padding-bottom: 2rem;
+}
+
+.title-image{
+    border-radius: 1rem;
+    min-height: 200px;
+}
+
+.video-section{
+    background-color: #0676d8;
+    color: white;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(/assets/images/banners/LibraryApp-AboutUs-banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    display: table-cell; 
+    vertical-align: middle;
+    color: white;
+}
+
+.banner-title-wrapper{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.video-container {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.center-text {
+    text-align: center;
 }

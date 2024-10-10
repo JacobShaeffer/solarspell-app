@@ -14,25 +14,46 @@
     margin-top: 20px !important;
     margin-bottom: 20px !important;
 }
-.toggle-children-icon-wrapper {
-    width: 30px !important;
-    height: 30px;
-    background-color: #0676D8;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212,212,212,1);
-    box-shadow: 0px 0px 5px 0px rgba(212,212,212,1);
-  }
-  .toggle-children-icon {
+.toggle-children-icon {
     transform: rotate(90deg);
-    background-image: url('/assets/images/icons/white_triangle.svg');
+    background-image: url('/assets/images/icons/blue_triangle.svg');
     background-size: contain;
     background-position: center;
     display: inline-block;
-    width: 10px;
-    height: 10px;
-  }
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.instruction-text-wrapper {
+    text-align: center;
+}
+
+.instruction-text {
+    background-color: lightblue;
+    display: inline-block;
+    border-radius: 1rem;
+    padding-inline: 1rem;
+}
+
+.banner{
+    height: 250px;
+    background-image: url(/assets/images/banners/LibraryApp-Index-banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    display: table-cell; 
+    vertical-align: middle;
+    color: white;
+}
+
+.banner-title-wrapper{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table;
+}

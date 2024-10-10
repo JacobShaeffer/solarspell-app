@@ -47,3 +47,7 @@
 .cat-container img{
     cursor: pointer;
 }
+
+.rounded {
+    border-radius: 17px !important; 
+}

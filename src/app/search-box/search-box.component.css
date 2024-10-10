@@ -1,8 +1,9 @@
-
-.adv-srch{/* replaced text color with class */
-    cursor: pointer;
-    margin: 0px;
-    text-decoration: underline;
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.round-btn{/* replaced text color with class */
+    border-radius: 12px !important;
 }
 .searchBar{/* replaced background and text color with class */
     border-radius: 17px;

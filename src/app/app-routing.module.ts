@@ -20,7 +20,7 @@ import { SearchDataResolver } from './resolvers/search-data.resolver';
 import { SearchKeywordResolver } from './resolvers/search-keyword.resolver';
 import { FullPathResolver } from './resolvers/full-path.resolver';
 import { NotFoundComponent } from './not-found/not-found.component';
-
+import { NewToSpellComponent } from './new-to-spell/new-to-spell.component';
 
 const routes: Routes = [
   {
@@ -35,6 +35,9 @@ const routes: Routes = [
   },
   {
     path: 'about', component: AboutComponent
+  },
+  {
+    path: 'new-to-spell', component: NewToSpellComponent
   },
   {
     path: 'index',

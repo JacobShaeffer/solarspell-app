@@ -1,11 +1,18 @@
+<section class="banner"><div class="banner-title-wrapper"><h1 class="banner-title">Index</h1></div></section>
 <div class="col-md-12">
     <div class="col-md-9 d-block m-auto index-wrapper">
-        <div class="col-md-8 m-auto info-style">
+        <div class="col-md-8 m-auto">
                 <p i18n="indexdesc@@indexdesc">
                     This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
-                    Click on the <span class="toggle-children-icon-wrapper"><span class="toggle-children-icon"></span></span>
+                </p> 
+                    <!-- Click on the <span class="toggle-children-icon-wrapper"><span class="toggle-children-icon"></span></span>
                     to see the topics available within each main subject area. You can also click on the 
-                    folder title to view its contents.</p>
+                    folder title to view its contents. -->
+                <div class="instruction-text-wrapper">
+                    <p class="instruction-text">
+                        Click the Arrow ( <span class="toggle-children-icon"></span> ) to navigate the subjects.
+                    </p>
+                </div>
         </div>
         <tree-root [nodes]="tree" (activate)="navigate($event)" [ngClass]="'expand-tree'">
         </tree-root>
