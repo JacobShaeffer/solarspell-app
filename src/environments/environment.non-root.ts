@@ -1,4 +1,4 @@
-const baseUrl = '/saf';
+const baseUrl = '/bmet';
 export const environment = {
   production: true,
   apiUrl: baseUrl + '/backend/',
