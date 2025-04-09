@@ -16,7 +16,7 @@
             </div>
             <div class="form-row" *ngFor="let rows of metadataList | slice:0:(math.ceil((metadataList?.length/2))); let i=index">
                 <div class="form-group col-md-6" *ngFor="let metadata of metadataList | slice:(2*i):(2*i+2); let j = index">
-                    <label i18n class="lbl">{metadata.name, select, Language {Language} Subject {Subject} Resource Type {Resource Type}  Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder}}</label>
+                    <label i18n class="lbl">{metadata.name, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement}}</label>
                     <ng-select
                         class="custom"
                         [items]="metadata.metadata"

@@ -101,8 +101,16 @@
         </context-group>
         <note priority="1" from="description">fileDescription</note>
       </trans-unit>
-      <trans-unit id="0c3276d32657cb263286dff6740304c5cb44d62a" datatype="html">
-        <source>{VAR_SELECT, select, Language {Language} Subject {Subject} Resource Type {Resource Type} Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder} }</source>
+      <trans-unit id="b1fe26b694e2950a57acdca72a0b5d8dec97bb13" datatype="html">
+        <source><x id="ICU" equiv-text="{meta.name, select, Language {...} Collection Type {...} Keywords {...} Author {...} Resource Type {...} Library User {...} Subject {...} Format {...} Rights Holder {...} Subcategory {...} Education Level {...} Rights Statement {...}}"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="639472130d24c9c97a9a3f10f13f65a26fc964b7" datatype="html">
+        <source>{VAR_SELECT, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
           <context context-type="linenumber">16</context>
@@ -187,8 +195,8 @@
         </context-group>
         <note priority="1" from="description">searchtitle</note>
       </trans-unit>
-      <trans-unit id="b02963bf2c0b294bc6431ab676e6e949ccb71806" datatype="html">
-        <source>{VAR_SELECT, select, Language {Language} Subject {Subject} Resource Type {Resource Type} Format {Format} Audience {Audience} Keywords {Keywords} Creator {Creator} Rights Holder {Rights Holder} }</source>
+      <trans-unit id="8f7d82f290692024547b16a859b030b726811a1c" datatype="html">
+        <source>{VAR_SELECT, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
           <context context-type="linenumber">19</context>

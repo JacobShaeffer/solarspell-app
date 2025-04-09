@@ -2,77 +2,51 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="9dedce4250d69e65807c0f11558d28d0823edafd" datatype="html">
-        <source>text-align:left;</source>
-        <target>text-align:right;</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cb33b150a0b9e6b88a9aa5fa79f91888dd06784a" datatype="html">
-        <source>ltr</source>
-        <target>rtl</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="menuHome" datatype="html">
         <source>Home</source>
-        <target>الصفحة الرئيسية</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">menuHome</note>
       </trans-unit>
-      <trans-unit id="menuSearch" datatype="html">
-        <source>Search</source>
-        <target>بحث</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <note priority="1" from="description">menuSearch</note>
-      </trans-unit>
       <trans-unit id="menuIndex" datatype="html">
         <source>Index</source>
-        <target>فهرس</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <note priority="1" from="description">menuIndex</note>
       </trans-unit>
       <trans-unit id="menuAboutus" datatype="html">
         <source>About us</source>
-        <target>من نحن</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">menuAboutus</note>
       </trans-unit>
+      <trans-unit id="cb33b150a0b9e6b88a9aa5fa79f91888dd06784a" datatype="html">
+        <source>ltr</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="generaleducation" datatype="html">
         <source>General Education Topics</source>
-        <target>مواضيع تعليمية عامة</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">8</context>
@@ -81,7 +55,6 @@
       </trans-unit>
       <trans-unit id="learningmodule" datatype="html">
         <source>Learning Modules</source>
-        <target>وحدات التعلم</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">16</context>
@@ -90,7 +63,6 @@
       </trans-unit>
       <trans-unit id="bcHomeDsktp" datatype="html">
         <source>Home</source>
-        <target>الصفحة الرئيسية</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
           <context context-type="linenumber">4</context>
@@ -99,7 +71,6 @@
       </trans-unit>
       <trans-unit id="bcHomeMobile" datatype="html">
         <source>&lt; Home</source>
-        <target>&lt; الصفحة الرئيسية</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/breadcrumb/breadcrumb.component.html</context>
           <context context-type="linenumber">13</context>
@@ -108,7 +79,6 @@
       </trans-unit>
       <trans-unit id="noitemsfoundmsg" datatype="html">
         <source>No Items Found</source>
-        <target>لم يتم العثور على محتوى</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/folder-view/folder-view.component.html</context>
           <context context-type="linenumber">18</context>
@@ -117,91 +87,75 @@
       </trans-unit>
       <trans-unit id="fileTitle" datatype="html">
         <source>Title</source>
-        <target>عنوان</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">fileTilte</note>
       </trans-unit>
       <trans-unit id="fileDescription" datatype="html">
         <source>Description</source>
-        <target>تفصيل</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <note priority="1" from="description">fileDescription</note>
       </trans-unit>
-      <trans-unit id="b1fe26b694e2950a57acdca72a0b5d8dec97bb13" datatype="html">
-        <source><x id="ICU" equiv-text="{meta.name, select, Language {...} Collection Type {...} Keywords {...} Author {...} Resource Type {...} Library User {...} Subject {...} Format {...} Rights Holder {...} Subcategory {...} Education Level {...} Rights Statement {...}}"/>
-            </source>
-        <target><x id="ICU" equiv-text="{meta.name, select, Language {...} Collection Type {...} Keywords {...} Author {...} Resource Type {...} Library User {...} Subject {...} Format {...} Rights Holder {...} Subcategory {...} Education Level {...} Rights Statement {...}}"/>
-            </target>
+      <trans-unit id="0c3276d32657cb263286dff6740304c5cb44d62a" datatype="html">
+        <source>{VAR_SELECT, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="639472130d24c9c97a9a3f10f13f65a26fc964b7" datatype="html">
-        <source>{VAR_SELECT, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement} }</source>
-        <target>{VAR_SELECT, select, Language {لغة} Collection Type {نوع المجموعة} Keywords {الكلمات الدلالية} Author {المُنشئ} Resource Type {نوع المورد} Library User {مستعمل المكتبة} Subject {الموضوع} Format {الصيغة} Rights Holder {صاحب الحقوق} Subcategory {تصنيف ثانوي} Education Level {درجة التعليم} Rights Statement {تصريح الحقوق} }</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="RightsStatement" datatype="html">
         <source>Rights Statement</source>
-        <target>بيان حقوق التأليف والنشر</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">29</context>
         </context-group>
         <note priority="1" from="description">RightsStatement</note>
       </trans-unit>
       <trans-unit id="yearPublished" datatype="html">
         <source>Year of Publication</source>
-        <target>تاريخ النشر</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <note priority="1" from="description">yearPublished</note>
       </trans-unit>
       <trans-unit id="fileSize" datatype="html">
         <source>File Size</source>
-        <target>حجم الملف</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">39</context>
         </context-group>
         <note priority="1" from="description">fileSize</note>
       </trans-unit>
       <trans-unit id="e9cf5f9b39ea2b8b98fc5d4dc26c9dd2c6ae1d85" datatype="html">
         <source>{VAR_SELECT, select, MB {MB} KB {KB} }</source>
-        <target>{VAR_SELECT, select, MB {ميغا بايت} KB {كيلوبايت} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">42</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="download" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Download</source>
-        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> تنزيل </target>
+        <source>
+                <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+                Download
+              </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/file-view/file-view.component.html</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">download</note>
       </trans-unit>
       <trans-unit id="27cda8d3c25cc0abe8798bbda357261c3f184d03" datatype="html">
         <source>Search resources...</source>
-        <target>إبحث عن محتوى</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
           <context context-type="linenumber">10</context>
@@ -209,7 +163,6 @@
       </trans-unit>
       <trans-unit id="advancedsearchlbl" datatype="html">
         <source>Advanced Search</source>
-        <target>البحث المتقدم</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-box/search-box.component.html</context>
           <context context-type="linenumber">18</context>
@@ -217,110 +170,78 @@
         <note priority="1" from="description">advancedsearchlbl</note>
       </trans-unit>
       <trans-unit id="advancedsearchbtn" datatype="html">
-        <source>Advanced Search</source>
-        <target>البحث المتقدم</target>
+        <source>
+            Advanced Search
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">advancedsearchbtn</note>
       </trans-unit>
       <trans-unit id="searchtitle" datatype="html">
         <source>Title</source>
-        <target>عنوان</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
         <note priority="1" from="description">searchtitle</note>
       </trans-unit>
-      <trans-unit id="8f7d82f290692024547b16a859b030b726811a1c" datatype="html">
+      <trans-unit id="b02963bf2c0b294bc6431ab676e6e949ccb71806" datatype="html">
         <source>{VAR_SELECT, select, Language {Language} Collection Type {Collection Type} Keywords {Keywords} Author {Author} Resource Type {Resource Type} Library User {Library User} Subject {Subject} Format {Format} Rights Holder {Rights Holder} Subcategory {Subcategory} Education Level {Education Level} Rights Statement {Rights Statement} }</source>
-        <target>{VAR_SELECT, select, Language {لغة} Collection Type {نوع المجموعة} Keywords {الكلمات الدلالية} Author {المُنشئ} Resource Type {نوع المورد} Library User {مستعمل المكتبة} Subject {الموضوع} Format {الصيغة} Rights Holder {صاحب الحقوق} Subcategory {تصنيف ثانوي} Education Level {درجة التعليم} Rights Statement {تصريح الحقوق} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="searchYearPublished" datatype="html">
-        <source>Year Published</source>
-        <target>تاريخ النشر</target>        
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-        <note priority="1" from="description">searchYearPublished</note>
-      </trans-unit>
-      <trans-unit id="searchMin" datatype="html">
-        <source>Min</source>
-        <target>بعد</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">41</context>
-        </context-group>
-        <note priority="1" from="description">searchMin</note>
-      </trans-unit>
-      <trans-unit id="searchMax" datatype="html">
-        <source>Max</source>
-        <target>قبل</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-        <note priority="1" from="description">searchMax</note>
-      </trans-unit>
       <trans-unit id="searchSearchBtn" datatype="html">
-        <source>Search</source>
-        <target>بحث</target>
+        <source>
+                        Search
+                    </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">56</context>
+          <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">72</context>
         </context-group>
         <note priority="1" from="description">searchSearchBtn</note>
       </trans-unit>
       <trans-unit id="noitemsfoundmsg2" datatype="html">
         <source>No Items Found</source>
-        <target>لم يتم العثور على محتوى</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search-list/search-list.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <note priority="1" from="description">noitemsfoundmsg2</note>
       </trans-unit>
       <trans-unit id="tableType" datatype="html">
         <source>Type</source>
-        <target>النوع</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">tableType</note>
       </trans-unit>
       <trans-unit id="tableTitle" datatype="html">
         <source>Title</source>
-        <target>العنوان</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">tableTitle</note>
       </trans-unit>
       <trans-unit id="tableSize" datatype="html">
         <source>Size</source>
-        <target>حجم الملف</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <note priority="1" from="description">tableSize</note>
       </trans-unit>
       <trans-unit id="680d5c75b7fd8d37961083608b9fcdc4167b4c43" datatype="html">
         <source>Previous</source>
-        <target>السابق</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
           <context context-type="linenumber">29</context>
@@ -328,7 +249,6 @@
       </trans-unit>
       <trans-unit id="f732c304c7433e5a83ffcd862c3dce709a0f4982" datatype="html">
         <source>Next</source>
-        <target>التالي</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
           <context context-type="linenumber">30</context>
@@ -336,15 +256,13 @@
       </trans-unit>
       <trans-unit id="c48576371b27d5a62f39103d9a0fc5e2ce038568" datatype="html">
         <source>You&apos;re on page</source>
-        <target>أنت على صفحة</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/content-list/content-list.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
-      </trans-unit>      
+      </trans-unit>
       <trans-unit id="mission1" datatype="html">
         <source>Our Mission</source>
-        <target>مهمتنا</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">4</context>
@@ -353,16 +271,14 @@
       </trans-unit>
       <trans-unit id="mission2" datatype="html">
         <source>The SolarSPELL initiative empowers learners globally by providing localized educational information and the training to build 21st century skills in offline environments. Student success is central to our mission, both around the world and at Arizona State University. </source>
-        <target>على تمكين المتعلمين عالمياً من خلال توفير المعلومات التعليمية المحلية والتدريب لبناء مهارات القرن الحادي والعشرين في البيئات غير المتصلة بالإنترنت. يعتبر نجاح الطلاب أمرًا أساسيًا في مهمتنا ، سواء حول العالم أو في جامعة ولاية أريزونا SolarSPELL تعمل مبادرة </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
         <note priority="1" from="description">mission2</note>
-      </trans-unit>      
+      </trans-unit>
       <trans-unit id="vision1" datatype="html">
         <source>Our Vision</source>
-        <target>رؤيتنا</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">6</context>
@@ -371,7 +287,6 @@
       </trans-unit>
       <trans-unit id="vision2" datatype="html">
         <source>We envision a future in which all learners everywhere have:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Access<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to the information they need;<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Skills<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to turn information into knowledge; and<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Agency<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to transform knowledge into solutions. </source>
-        <target>نتصور مستقبلًا يمتلك فيه جميع المتعلمين في كل مكان:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>الوصول<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> ؛إلى المعلومات التي يحتاجون إليها<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>المهارات<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> اللازمة لتحويل المعلومات إلى معرفة ؛ و<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>القدرة<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>على تحويل المعرفة إلى حلول. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">7</context>
@@ -380,7 +295,6 @@
       </trans-unit>
       <trans-unit id="aboutus1" datatype="html">
         <source>About Us</source>
-        <target>من نحن</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">10</context>
@@ -389,47 +303,37 @@
       </trans-unit>
       <trans-unit id="aboutus2" datatype="html">
         <source>SolarSPELL is a Solar Powered Educational Learning Library. Our initiative works to build internet-ready skills and improve educational opportunities around the world.</source>
-        <target>هي مكتبة تعلم تربوية تعمل بالطاقة الشمسية. تعمل مبادرتنا على بناء مهارات الاستعداد للانترنت وتحسين الفرص التعليمية في جميع أنحاء العالم.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">16</context>
         </context-group>
         <note priority="1" from="description">aboutus2</note>
       </trans-unit>
       <trans-unit id="values1" datatype="html">
         <source>Our Values</source>
-        <target>قيمنا</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
         <note priority="1" from="description">values1</note>
       </trans-unit>
       <trans-unit id="values2" datatype="html">
-        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Community:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We prioritize relationships within our community and the global communities in which we work. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Learning:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We ask questions and continuously improve all aspects of our initiative.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Innovative solutions at scale:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We design for sustainability and boldly believe the opportunities for implementation are limitless. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Meaningful work:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We are honored to meet people where they are and deliver products and services of value.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Building bridges:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-        </source>      
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>المجتمع:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>نحن نعطي الأولوية للعلاقات داخل مجتمعنا والمجتمعات العالمية التي نعمل فيه.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>التعلم:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> نحن نطرح الأسئلة ونعمل باستمرار على تحسين جميع جوانب مبادرتنا.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>حلول مبتكرة على نطاق واسع:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>نحن نقوم بالتصميم من أجل الاستدامة ونؤمن بجرأة أن فرص التنفيذ لا حدود لها.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>أفعال ذو معنى:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> نحن نتشرف بمقابلة الأشخاص أينما كانوا وتقديم منتجات وخدمات ذات قيمة.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>بناء الجسور:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> نحن نعمل عبر الحدود والتخصصات - ندمج المعرفة ووجهات النظر المتنوعة لبناء مستقبل أفضل للجميع.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-        </target>
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Community:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We prioritize relationships within our community and the global communities in which we work.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 
+                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Learning:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We ask questions and continuously improve all aspects of our initiative.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Innovative solutions at scale:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We design for sustainability and boldly believe the opportunities for implementation are limitless.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Meaningful work:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We are honored to meet people where they are and deliver products and services of value.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Building bridges:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <note priority="1" from="description">values2</note>
       </trans-unit>
       <trans-unit id="values3" datatype="html">
         <source>Our Values</source>
-        <target>قيمنا</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <note priority="1" from="description">values3</note>
       </trans-unit>
@@ -438,42 +342,32 @@
                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Learning:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We ask questions and continuously improve all aspects of our initiative.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Innovative solutions at scale:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We design for sustainability and boldly believe the opportunities for implementation are limitless. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
                  <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Meaningful work:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We are honored to meet people where they are and deliver products and services of value.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Building bridges:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-        </source>
-        <target><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>:المجتمع<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> .نحن نعطي الأولوية للعلاقات داخل مجتمعنا والمجتمعات العالمية التي نعمل فيه<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>:التعلم<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> .نحن نطرح الأسئلة ونعمل باستمرار على تحسين جميع جوانب مبادرتنا<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>:حلول مبتكرة على نطاق واسع<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>.نحن نقوم بالتصميم من أجل الاستدامة ونؤمن بجرأة أن فرص التنفيذ لا حدود لها<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>:أفعال ذو معنى<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> .نحن نتشرف بمقابلة الأشخاص أينما كانوا وتقديم منتجات وخدمات ذات قيمة<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-                <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>:بناء الجسور<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> .نحن نعمل عبر الحدود والتخصصات - ندمج المعرفة ووجهات النظر المتنوعة لبناء مستقبل أفضل للجميع<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-        </target>        
+                 <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Building bridges:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> We work across borders and disciplines – integrating diverse knowledge and perspectives to build a better future for all.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">values4</note>
+      </trans-unit>
+      <trans-unit id="footerAboutusbtn" datatype="html">
+        <source>About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">footerAboutusbtn</note>
       </trans-unit>
       <trans-unit id="footermsg" datatype="html">
         <source>SolarSPELL (Solar Powered Educational Learning Library) works to build internet-ready
         skills and improve educational opportunities around the world.</source>
-        <target> تعمل مبادرتنا على بناء مهارات الاستعداد للإنترنت وتحسين الفرص التعليمية في جميع أنحاء العالم </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="description">footermsg</note>
       </trans-unit>
-      <trans-unit id="footerAboutusbtn" datatype="html">
-        <source>About Us</source>
-        <target>من نحن</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description">footerAboutusbtn</note>
-      </trans-unit>      
       <trans-unit id="footercontact" datatype="html">
         <source>Contact us at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>team@solarspell.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>اتصل بنا على <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>team@solarspell.org<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">12</context>
@@ -483,37 +377,21 @@
       <trans-unit id="footercopyright" datatype="html">
         <source>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
         the library’s user interface is copyrighted by Arizona Board of Regents on behalf of Arizona State University.</source>
-        <target>Copyright <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>©<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 2021. All content on this library is either open access or the SolarSPELL Initiative at ASU has received permission to include it in this library. The design and layout of 
-        the library’s user interface is copyrighted by Arizona Board of Regents on behalf of Arizona State University.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
         <note priority="1" from="description">footercopyright</note>
-      </trans-unit>      
-      <trans-unit id="indextitle" datatype="html">
-        <source>SolarSPELL Library Index</source>
-        <target>الفهرس</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">indextitle</note>
       </trans-unit>
       <trans-unit id="indexdesc" datatype="html">
         <source>
-            This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
-            Click on the <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-            to see the topics available within each main subject area. You can also click on the 
-            folder title to view its contents.
-        </source>
-        <target>
-          يوفر هذا الفهرس نظرة عامة على جميع المجلدات والمجلدات الفرعية المتاحة في المكتبة . 
-            انقر فوق  <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>  لرؤية المواضيع المتاحة داخل كل مجال رئيسي. يمكنك أيضًا النقر فوق عنوان المجلد لعرض محتوياته .
-        </target>
+                    This index provides an overview of all folders and subfolders available on the SolarSPELL library. 
+                    Click on the <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+                    to see the topics available within each main subject area. You can also click on the 
+                    folder title to view its contents.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/index-page/index-page.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="linenumber">4</context>
         </context-group>
         <note priority="1" from="description">indexdesc</note>
       </trans-unit>
